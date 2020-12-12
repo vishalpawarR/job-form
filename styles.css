@@ -2,8 +2,9 @@
 
 :root {
     --dark-blue: #1b1b32;
-    --light-blue: rgba(27,27,50,0.8);
+    --light-blue: rgba(27, 27, 50, 0.8);
 }
+
 body {
     background-color: var(--light-blue);
     color: white;
@@ -12,24 +13,34 @@ body {
     font-size: 1rem;
     font-weight: 400;
 }
-h1 {
 
-}
+h1 {}
+
 .description {
     font-style: italic;
     font-weight: 100;
 }
+
 form {
     background-color: var(--dark-blue);
     text-align: left;
     padding: 2rem;
     border-color: white;
     border-width: 1px;
+    max-width: 500px;
+    /* align-self: center; */
+    text-items: center;
+    display: block;
 }
+
 label {
     display: block;
     font-size: 1.065rem;
 }
+
 form p {
     font-size: 1.065rem;
+}
+.form-control {
+    width: 100%;
 }
