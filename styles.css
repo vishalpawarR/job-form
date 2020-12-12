@@ -25,12 +25,15 @@ form {
     background-color: var(--dark-blue);
     text-align: left;
     padding: 2rem;
+    border-style: dashed;
     border-color: white;
     border-width: 1px;
     max-width: 500px;
     /* align-self: center; */
     text-items: center;
     display: block;
+    margin: auto;
+
 }
 
 label {
@@ -41,6 +44,17 @@ label {
 form p {
     font-size: 1.065rem;
 }
+
 .form-control {
     width: 100%;
+}
+
+button {
+    /* margin-right: 6px; */
+    /* width: 110%; */
+    /* background-color: green; */
+}
+
+textarea {
+    height: 100px;
 }
