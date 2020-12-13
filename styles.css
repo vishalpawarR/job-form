@@ -53,6 +53,7 @@ button {
     /* margin-right: 6px; */
     /* width: 110%; */
     /* background-color: green; */
+    width: fit-content;
 }
 
 textarea {
